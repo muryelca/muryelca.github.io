@@ -1,0 +1,127 @@
+storyjs_jsonp_data = {
+    "timeline":
+    {
+        "date": [
+            {    
+                "startDate":"2001,3,10",        
+                "endDate":"2009,12,12",
+                "headline":"Ensino Fundamental",
+                "text":"<p>Ensino Fundamental no Lucio Esteves</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/lucio_esteves.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010,3,10",
+                "endDate":"2011,12,12",
+                "headline":"Ensino Medio Integral",
+                "text":"<p>Tecnico em informatica</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/cedup.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2012,3,26",
+                "endDate":"2012,12,12",
+                "headline":"Ensino Medio",
+                "text":"Ensino medio no Pedro II",
+                "asset":
+                {
+                    "media":"images/resume-images/pedro_ii.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2013,3,24",
+                "endDate":"2014,12,12",
+                "headline":"Ensino Medio",
+                "text":"Ensino medio no Ruy Barbosa",
+                "asset":
+                {
+                    "media":"images/resume-images/ruy_barbosa.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2013,3,24",
+                "endDate":"2014,12,12",
+                "headline":"Tecnico em Automacao Industrial",
+                "text":"<p>Tecnico em Automacao Industrial no SENAI.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/senai.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2015,8,10",
+                "headline":"Engenharia de Controle e Automacao",
+                "text":"<p>Engenharia de Controle e Automacao na UFSC.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/ufsc.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+      {
+                "startDate":"2019,1,12",
+                "endDate":"2019,3,19",
+                "headline":"JavaScript",
+                "text":"<p>Curso de JavaScript na Udemy</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/js.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2019,3,19",
+                "endDate":"2019,4,19",
+                "headline":"HTML 5",
+                "text":"Curso de HTML 5 na Udemy",
+                "asset":
+                {
+                    "media":"images/resume-images/html.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2019,3,19",
+                "endDate":"2019,4,19",
+                "headline":"CSS 3",
+                "text":"Curso de CSS 3 na Udemy.",
+                "asset":
+                {
+                    "media":"images/resume-images/css.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },    
+      {
+                "startDate":"2019,8,05",
+                "endDate":"2019,8,09",
+                "headline":"Semana OmminiStack",
+                "text":"Curso semanal da Rocketseat sobre ReactJS",
+                "asset":
+                {
+                    "media":"images/resume-images/rocketseat.png",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}

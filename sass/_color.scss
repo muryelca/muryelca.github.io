@@ -1,0 +1,261 @@
+
+/*-------------------------------*/
+/*  Color preferenses
+/*-------------------------------*/
+
+/* Content:
+  
+0. Color style;
+1. Main;
+2. Header;
+  2.1. Loader;
+  2.2. Logo;
+  2.3. Menu;
+3. Maim sections styles;
+4. About section;
+5. Resume section;
+6. Portfolio section;
+7. Contact section;
+8. Footer section.
+
+*/
+
+/*-------------------------------*/
+/*  0. Color style
+/*-------------------------------*/
+
+
+/* Main variables */
+
+$color: #FF6347; /* Theme skin - change it & see what happens */
+$button_color: #FF6347;
+$text_color: #888;
+$main_color: #222;
+$bg_light: #fcfcfc;
+$white: #FFF;
+
+/* Some mixins */
+
+@mixin kerning($kerning) {
+	letter-spacing: $kerning + px;
+}
+
+/*-------------------------------*/
+/*  1. Main
+/*-------------------------------*/
+  
+body {
+	color: $main_color;
+}
+
+a {
+	color: $color;
+}
+
+p,
+.s_about li {
+	color: $text_color;
+}
+
+/*-------------------------------*/
+/*  2. Header
+/*-------------------------------*/
+
+.main_color_bg {
+  background-color: $main_color;
+}
+
+/* 2.1. Loader */
+
+.loader, .loader_inner {
+  background-color: $white;
+}
+
+
+/* 2.2. Logo */
+
+path {
+  fill: $bg_light;
+  stroke: $color;
+}
+
+/* 2.3. Menu */
+
+.toggle_menu {
+  background-color: $bg_light;
+  border-color: $color;
+}
+
+.top_menu {
+	a:hover {
+		color: $color;
+  }
+  
+	a {
+		@include kerning(3);
+  }
+}
+
+.sw-topper, 
+.sw-bottom,
+.sw-footer {
+  background: $color;
+}
+
+/*-------------------------------*/
+/*  3. Main sections styles
+/*-------------------------------*/
+
+section {
+	h3 {
+		@include kerning(4);
+		color: $text_color;
+  }
+}
+
+.s_descr {
+	@include kerning(4);
+
+  &::after {
+		background-color: $main_color;
+  }
+}
+
+.top_text {
+	p, h1 {
+		color: $bg_light;
+		@include kerning(5);
+		
+    span {
+      color: $color;   
+    }
+  }
+}
+
+.bg_light {
+	background-color: $bg_light;
+}
+
+.bg_dark {
+	background-color: $main_color;
+	color: #fff;
+	
+	.s_descr::after {
+		background-color: #fff;
+	}
+	
+	a {
+		color: #fff;
+  }
+}
+
+/*-------------------------------*/
+/*  4. About section
+/*-------------------------------*/
+
+.personal {
+  img {
+    border-color: $color;
+  }
+}
+
+.panel-title {
+  a {
+    color: #222;
+    @include kerning(4);
+    
+    &:hover, &:focus {
+      color: $color;
+    }
+  }
+}
+
+/*-------------------------------*/
+/*  5. Resume section
+/*-------------------------------*/
+
+.vco-timeline .vco-navigation .timenav .content .marker.active .flag .flag-content h3 {
+  color: $color !important;
+}
+
+ .vco-timeline .vco-navigation .timenav .content .marker.active .line, .vco-timeline .vco-navigation .timenav-background .timenav-line {
+  background-color: $color !important;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker .line .event-line, .vco-timeline .vco-navigation .timenav .content .marker.active .line .event-line, .vco-timeline .vco-navigation .timenav .content .marker.active .dot {
+  background: $color !important;
+}
+
+.vco-timeline .vco-navigation .timenav-background {
+  background-color: $bg_light !important;
+}
+
+/*-------------------------------*/
+/*  6. Portfolio section
+/*-------------------------------*/
+
+.s_portfolio {
+	li {
+		color: $text_color;
+		@include kerning(2);
+  }
+  
+	li.active {
+		color: $white;
+		border-bottom: 1px solid $color;
+  }
+}
+
+.mask {
+  a {
+    color: $color;
+    border-color: $color;
+  }
+}
+
+/*-------------------------------*/
+/*  7. Contact section
+/*-------------------------------*/
+
+form {
+	input:focus,
+	textarea:focus {
+		border: 1px solid $color;
+  }
+  
+	input,
+	textarea {
+    @include kerning(2);
+		border: 1px solid #ccc;
+  }
+  
+	button {
+		background-color: $color;
+		@include kerning(2);
+  } 
+  
+	.form-group {
+		
+		
+		.text-danger  {
+		  color: $color;
+		}
+  }
+  
+  .fa-asterisk{
+    color: $color;
+  }
+}
+
+/*-------------------------------*/
+/*  8. Footer
+/*-------------------------------*/
+
+.main_footer {
+  color: $text_color;
+  @include kerning(1);
+   
+  .heart, a {
+	  color: $color;
+  }
+}
