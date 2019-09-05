@@ -1,24 +1,24 @@
 /*-------------------------------*/
-/*  Color preferenses
+/*  preferencia de cores
 /*-------------------------------*/
-/* Content:
+/* Conteudo:
   
-0. Color style;
-1. Main;
+1. menu;
 2. Header;
-  2.1. Loader;
+  2.1. carregamento do bigode;
   2.2. Logo;
   2.3. Menu;
-3. Maim sections styles;
-4. About section;
-5. Resume section;
-6. Portfolio section;
-7. Contact section;
-8. Footer section.
+3. estilos do menu;
+4. aba do sobre;
+5. aba do resumo;
+6. aba do portfolio;
+7. aba do contato;
+8. rodape.
 
-/*-------------------------------*/
-/*  1. Main
-/*-------------------------------*/
+
+/*-------------------------------
+ 1. menu
+------------------------------------*/
 body {
   color: #222;
 }
@@ -35,7 +35,7 @@ p,
 /*-------------------------------*/
 /*  2. Header
 /*-------------------------------*/
-.main_color_bg {
+.menu_color_bg {
   background-color: #222;
 }
 
@@ -70,7 +70,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  3. Main sections styles
+/*  3. estilos do menu
 /*-------------------------------*/
 section h3 {
   letter-spacing: 4px;
@@ -108,7 +108,7 @@ section h3 {
 }
 
 /*-------------------------------*/
-/*  4. About section
+/*  4. aba do sobre
 /*-------------------------------*/
 .personal img {
   border-color: #FF6347;
@@ -123,7 +123,7 @@ section h3 {
 }
 
 /*-------------------------------*/
-/*  5. Resume section
+/*  5. aba do resumo
 /*-------------------------------*/
 .vco-timeline .vco-navigation .timenav .content .marker.active .flag .flag-content h3 {
   color: #FF6347 !important;
@@ -142,7 +142,7 @@ section h3 {
 }
 
 /*-------------------------------*/
-/*  6. Portfolio section
+/*  6. aba do portfolio
 /*-------------------------------*/
 .s_portfolio li {
   color: #888;
@@ -159,7 +159,7 @@ section h3 {
 }
 
 /*-------------------------------*/
-/*  7. Contact section
+/*  7. aba do contato
 /*-------------------------------*/
 form input:focus,
 form textarea:focus {
@@ -182,12 +182,12 @@ form .fa-asterisk {
 }
 
 /*-------------------------------*/
-/*  8. Footer
+/*  8. rodape
 /*-------------------------------*/
-.main_footer {
+.menu_footer {
   color: #888;
   letter-spacing: 1px;
 }
-.main_footer .heart, .main_footer a {
+.menu_footer .heart, .menu_footer a {
   color: #FF6347;
 }

@@ -1,24 +1,24 @@
 /*-------------------------------*/
-/*  All styles
+/*  Estilos
 /*-------------------------------*/
-/* Content:
+/* Conteudo:
 
-1. Main;
+1. Menu;
 2. Header;
-  2.1. Loader;
+  2.1. carregamento do bigode;
   2.2. Logo;
   2.3. Menu;
-3. Maim sections styles;
-4. About section;
-5. Resume section;
-6. Portfolio section;
+3. Estilo do menu;
+4. Aba do sobre;
+5. Aba do resumo;
+6. Aba do portfolio;
   6.1. Pop-up;
-7. Contact section;
-8. Footer section.
+7. Aba do contato;
+8. rodape.
 
 */
 /*-------------------------------*/
-/*  1. Main
+/*  1. Menu
 /*-------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
@@ -66,7 +66,7 @@ section h3 {
   width: 100%;
 }
 
-/* 2.1. Loader */
+/* 2.1. carregamento do bigode */
 .loader {
   background: none repeat scroll 0 0;
   bottom: 0;
@@ -304,7 +304,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  3. Main sections styles
+/*  3. Estilo do menu
 /*-------------------------------*/
 .top_wrapper {
   display: table;
@@ -376,7 +376,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  4. About section
+/*  4. Aba do sobre
 /*-------------------------------*/
 .personal {
   text-align: center;
@@ -418,7 +418,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  5. Resume section
+/*  5. Aba do resumo
 /*-------------------------------*/
 #my-timeline {
   border-radius: 0;
@@ -476,7 +476,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  6. Portfolio section
+/*  6. Aba do portfolio
 /*-------------------------------*/
 .s_portfolio {
   padding-bottom: 60px;
@@ -627,7 +627,7 @@ path {
 }
 
 /*-------------------------------*/
-/*  7. Contact section
+/*  7. Aba do contato
 /*-------------------------------*/
 .main_form button {
   display: block;
@@ -687,7 +687,7 @@ input[type="email"] {
 }
 
 /*-------------------------------*/
-/*  8. Footer
+/*  8. rodape
 /*-------------------------------*/
 .main_footer {
   padding: 50px 0;
